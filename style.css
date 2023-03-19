@@ -1,73 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+
+/* set font and background color for the whole page */
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  color: #40513b;
+  background-color: #edf1d6;
 }
 
+/* style the header */
 header {
-	background-color: #333;
-	color: #fff;
-	padding: 10px;
+  background-color: #40513b;
+  color: white;
+  text-align: left;
+  padding: 20px;
 }
 
+header .container{
+  vertical-align: middle;
+}
+
+/* style the navigation bar */
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-nav ul li {
-	display: inline-block;
-	margin: 0 10px;
+nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
 }
 
-nav ul li a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
+nav a:hover {
+  color:  #edf1d6;
 }
 
-section {
-	padding: 50px;
+/* style the main content area */
+main {
+  margin: 20px;
+  background-color: #edf1d6
 }
 
-section h1 {
-	font-size: 36px;
-	margin-bottom: 20px;
+/* style the articles of the main content area */
+article {
+  margin-bottom: 30px;
 }
 
-section ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+/* style the heading of a article */
+article h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-section li {
-	margin-bottom: 30px;
+/* style the paragraph text of a article */
+article p {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
-
-section li h2 {
-	font-size: 24px;
-	margin-bottom: 10px;
-}
-
-section li p {
-	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 20px;
-}
-
-section li a {
-	display: block;
-	background-color: #333;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
-	text-decoration: none;
-	width: 150px;
-	margin-top: 10px;
-}
-
 
