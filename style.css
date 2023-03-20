@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
+html{
+  background-color: #edf1d6;
+}
+
 .flex-container{
   display: flex;
   flex-direction: row;
-}
-
-html{
-  background-color: #edf1d6;
 }
 
 /* set font and background color for the whole page */
@@ -78,6 +78,7 @@ article p {
   line-height: 1.5;
 }
 
+/* style landing page for centered content the size of the screen*/
 #landing {
   align-items: center;
   display:flex;
@@ -96,7 +97,7 @@ article p {
   padding: 20px;
   font-size: large;
 }
-
+/* style the landing page profile image*/
 #landing img {
   max-width: 50%;
   max-height: 50%;
