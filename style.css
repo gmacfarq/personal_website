@@ -69,9 +69,7 @@ article {
 /* style the heading of a article */
 article h3 {
   margin-bottom: 10px;
-}
-article h1 {
-  padding: 20px;
+
 }
 
 /* style the paragraph text of a article */
@@ -86,6 +84,17 @@ article p {
   height: 100vh;
   justify-content: center;
   width: 100vw;
+}
+
+#landing .container{
+  display: flex;
+  flex-direction: column;
+}
+
+#attrib {
+  list-style-type: none;
+  padding: 20px;
+  font-size: large;
 }
 
 #landing img {
